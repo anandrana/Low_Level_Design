@@ -1,0 +1,22 @@
+Solid principle
+
+S = Single Responsibility principle
+  => A Class should have only one reason to change.
+
+O = Open Close principle
+  => Open for extensions and closed for modification.
+
+L = Liskov Substitution principle
+  => if class B is subtype of class A , then we should be able to 
+  replace object of A to B without breaking the behaviour of the 
+  program.
+
+  subclass should extend the capability of the parent class not 
+  narrow it down.
+
+I = Interface Segregation principle
+  => Interface should be such that client should not implement
+  unnecessary functions they do not need.
+
+D = Dependency Inversion principle
+  => Class should depend on interface rather then concrete classes.
